@@ -5,6 +5,9 @@ Primarily created to continue to (ab)use Unity 2022+ dlls in projects targeting 
 ## Usage
 `UnStandard.exe --output=OutputDirectory InputFile.dll InputDirectory`
 
+## Alternative usage
+The netstandard.dll generated can also be used directly instead of converting other libraries and programs.
+
 ## Notes
 .NET Framework does not contain all the classes included in .NET Standard 2.1, and backports are not available for all of them.  
 The following libraries are used to fill in some of the missing classes in .NET Framework:
