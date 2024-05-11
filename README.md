@@ -9,7 +9,7 @@ Primarily created to continue to (ab)use Unity 2022+ dlls in projects targeting 
 The netstandard.dll generated can also be used directly instead of converting other libraries and programs.
 
 ## Notes
-.NET Framework does not contain all the classes included in .NET Standard 2.1, and backports are not available for all of them.  
+.NET Framework does not contain all the classes included in .NET Standard 2.1, and backports are not available for all of them. 38 classes in Standard 2.1 are currently unavailable.  
 The following libraries are used to fill in some of the missing classes in .NET Framework:
 ```
 Microsoft.Bcl.AsyncInterfaces v8.0.0

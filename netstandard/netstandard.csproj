@@ -9,6 +9,15 @@
     <DebugType>none</DebugType>
   </PropertyGroup>
   <ItemGroup>
+    <InternalsAssemblyName Include="Microsoft.CodeAnalysis" />
+    <InternalsAssemblyName Include="System.Security.SuppressUnmanagedCodeSecurityAttribute" />
+    <InternalsAssemblyExcludeTypeName Include="System.Security.SuppressUnmanagedCodeSecurityAttribute" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="IgnoresAccessChecksToGenerator" Version="0.7.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
     <PackageReference Include="Microsoft.Bcl.HashCode" Version="1.1.1" />
     <PackageReference Include="Microsoft.Bcl.Numerics" Version="8.0.0" />
